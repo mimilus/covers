@@ -15,6 +15,7 @@ minetest.register_craft({
 minetest.register_node("covers:dirt", {
 	description = "Dirt Cover",
 	tiles = { 'default_dirt.png' },
+	inventory_image = 'default_dirt.png',
     drawtype = "nodebox",
 	paramtype = "light",
     paramtype2 = "facedir",
